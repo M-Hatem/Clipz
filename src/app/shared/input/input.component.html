@@ -19,8 +19,8 @@
   </p>
   <p
     *ngIf="
-        control?.errors?.['minlength'].actualLength <
-          control?.errors?.['minlength'].requiredLength
+        control?.errors?.['minlength']?.actualLength <
+          control?.errors?.['minlength']?.requiredLength
         "
     class="text-red-400 text-sm"
   >
